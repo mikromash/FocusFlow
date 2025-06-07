@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Focus.Flow.UWP": {
+      "commandName": "MsixPackage"
+    }
+  }
+}

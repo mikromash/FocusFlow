@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="Focus.Flow.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="White">
+
+    <Grid Padding="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="320">
+        <StackPanel Spacing="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <TextBlock Text="FocusFlow"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       Foreground="Black"
+                       HorizontalAlignment="Center" />
+
+            <Button Content="Додати завдання"
+                    Width="180"
+                    Height="48"
+                    Background="#ffc9b9"
+                    Foreground="White"
+                    CornerRadius="8"
+                    Click="AddTask_Click"/>
+
+            <Button Content="Список завдань"
+                    Width="180"
+                    Height="48"
+                    Background="#ffc9b9"
+                    Foreground="White"
+                    CornerRadius="8"
+                    Click="OpenTasks_Click" />
+            
+            <Button Content="Таймер"
+                    Width="180"
+                    Height="48"
+                    Background="#ffc9b9"
+                    Foreground="White"
+                    CornerRadius="8"
+                    Click="OpenTimer_Click" />      
+
+
+        </StackPanel>
+    </Grid>
+</Page>

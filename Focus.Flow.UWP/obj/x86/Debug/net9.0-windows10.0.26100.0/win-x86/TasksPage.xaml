@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="Focus.Flow.UWP.TasksPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:FocusFlow.Core.Models"
+    xmlns:converters="using:Focus.Flow.UWP.Converters"
+    Background="White">
+
+    <Page.Resources>
+        <converters:PriorityToBrushConverter x:Key="PriorityToBrushConverter"/>
+    </Page.Resources>
+
+    <Grid Padding="20">
+        <StackPanel Spacing="20">
+
+            <!-- Кнопка Назад -->
+            <Button x:ConnectionId='2' Content="← Назад"
+                    HorizontalAlignment="Left"
+                    Background="Transparent"
+                    Foreground="Black"
+                    FontSize="16"
+                                            />
+
+            <!-- Список задач із пріоритетом -->
+            <ListView x:ConnectionId='3' x:Name="TasksListView" ItemsSource="{Binding Tasks}">
+                <ListView.ItemTemplate>
+                    <DataTemplate                            >
+                        <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+                            <CheckBox x:ConnectionId='6' IsChecked="{Binding IsCompleted, Mode=TwoWay}"
+                                                                    
+                                                                      />
+                            <TextBlock Text="{Binding Title}" VerticalAlignment="Center"/>
+
+                            <!-- Відображення пріоритету текстом і кольором -->
+                            <TextBlock Text="("
+                                       VerticalAlignment="Center"/>
+                            <TextBlock Text="{Binding Priority}"
+                                       VerticalAlignment="Center"
+                                       Foreground="{Binding Priority, Converter={StaticResource PriorityToBrushConverter}}"
+                                       FontWeight="SemiBold"/>
+                            <TextBlock Text=")"
+                                       VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackPanel>
+    </Grid>
+</Page>
+

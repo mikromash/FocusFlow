@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|c:\\users\\maria\\desktop\\focus.flow.uwp\\focus.flow.uwp\\taskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|solutionrelative:focus.flow.uwp\\taskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|c:\\users\\maria\\desktop\\focus.flow.uwp\\focus.flow.uwp\\taskspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|solutionrelative:focus.flow.uwp\\taskspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|c:\\users\\maria\\desktop\\focus.flow.uwp\\focus.flow.uwp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|solutionrelative:focus.flow.uwp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|c:\\users\\maria\\desktop\\focus.flow.uwp\\focus.flow.uwp\\converters\\prioritytobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|solutionrelative:focus.flow.uwp\\converters\\prioritytobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|c:\\users\\maria\\desktop\\focus.flow.uwp\\focus.flow.uwp\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7F556B-35EB-4C7F-B801-AAA8CDE3A0A0}|Focus.Flow.UWP\\Focus.Flow.UWP.csproj|solutionrelative:focus.flow.uwp\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TasksPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\TasksPage.xaml.cs",
+              "RelativeDocumentMoniker": "Focus.Flow.UWP\\TasksPage.xaml.cs",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\TasksPage.xaml.cs",
+              "RelativeToolTip": "Focus.Flow.UWP\\TasksPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAASwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:50:33.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\TasksPage.xaml",
+              "RelativeDocumentMoniker": "Focus.Flow.UWP\\TasksPage.xaml",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\TasksPage.xaml",
+              "RelativeToolTip": "Focus.Flow.UWP\\TasksPage.xaml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwBgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T11:50:21.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\App.xaml",
+              "RelativeDocumentMoniker": "Focus.Flow.UWP\\App.xaml",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\App.xaml",
+              "RelativeToolTip": "Focus.Flow.UWP\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T11:49:51.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PriorityToBrushConverter.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\Converters\\PriorityToBrushConverter.cs",
+              "RelativeDocumentMoniker": "Focus.Flow.UWP\\Converters\\PriorityToBrushConverter.cs",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\Converters\\PriorityToBrushConverter.cs",
+              "RelativeToolTip": "Focus.Flow.UWP\\Converters\\PriorityToBrushConverter.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:49:05.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\TaskService.cs",
+              "RelativeDocumentMoniker": "Focus.Flow.UWP\\TaskService.cs",
+              "ToolTip": "C:\\Users\\maria\\Desktop\\Focus.Flow.UWP\\Focus.Flow.UWP\\TaskService.cs",
+              "RelativeToolTip": "Focus.Flow.UWP\\TaskService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:37:57.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

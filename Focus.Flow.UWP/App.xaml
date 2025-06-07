@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="Focus.Flow.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="using:Focus.Flow.UWP.Converters">
+
+    <Application.Resources>
+        <converters:TaskStatusToBoolConverter x:Key="TaskStatusToBoolConverter"/>
+        <converters:PriorityToBrushConverter x:Key="PriorityToBrushConverter"/>
+    </Application.Resources>
+</Application>

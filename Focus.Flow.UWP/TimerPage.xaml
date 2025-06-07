@@ -1,0 +1,67 @@
+﻿<Page
+    x:Class="Focus.Flow.UWP.TimerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Focus.Flow.UWP"
+    Background="White">
+
+    <Grid Padding="30" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel Spacing="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <!-- Назад -->
+            <Button Content="← Назад"
+                    HorizontalAlignment="Left"
+                    Background="Transparent"
+                    Foreground="Black"
+                    FontSize="16"
+                    Click="BackButton_Click"/>
+
+            <!-- Круговий таймер -->
+            <Grid Width="200" Height="200" HorizontalAlignment="Center">
+                <!-- Фон -->
+                <Ellipse Fill="#92ba92" Width="200" Height="200"/>
+
+                <!-- Прогрес -->
+                <Ellipse x:Name="ProgressCircle"
+                         Stroke="#78938a"
+                         StrokeThickness="8"
+                         StrokeDashArray="565.5"
+                         StrokeDashOffset="0"
+                         Width="200" Height="200">
+                    <Ellipse.RenderTransform>
+                        <RotateTransform Angle="-90" CenterX="100" CenterY="100"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+
+                <!-- Час -->
+                <TextBlock x:Name="TimerTextBlock"
+                           FontSize="36"
+                           FontWeight="Bold"
+                           Foreground="White"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Text="25:00"/>
+            </Grid>
+
+            <!-- Кнопки -->
+            <StackPanel Orientation="Horizontal" Spacing="16" HorizontalAlignment="Center">
+
+                <Button Width="60" Height="60" Background="Transparent" Foreground="Black"
+                        Click="StartTimer_Click">
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="22" Text="&#xE768;" />
+                </Button>
+
+                <Button Width="60" Height="60" Background="Transparent" Foreground="Black"
+                        Click="PauseTimer_Click" x:Name="PauseButton" IsEnabled="False">
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="22" Text="&#xE769;" />
+                </Button>
+
+                <Button Width="60" Height="60" Background="Transparent" Foreground="Black"
+                        Click="SkipTimer_Click" x:Name="SkipButton" IsEnabled="False">
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="22" Text="&#xE892;" />
+                </Button>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
